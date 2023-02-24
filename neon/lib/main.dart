@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:neon/models/movie.dart';
+import 'package:neon/screens/movie_detail_screen.dart';
 import 'package:neon/screens/onboarding_screen.dart';
 import 'package:neon/screens/home_screen.dart';
 
@@ -18,7 +20,13 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: GoogleFonts.openSans().fontFamily,
       ),
-      home: const HomeScreen(),
+      // home: const OnboardingScreen(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const OnboardingScreen(),
+        '/home': (context) => const HomeScreen(),
+        '/detail': (context) => const MovieDetailScreen(),
+      },
     );
   }
 }

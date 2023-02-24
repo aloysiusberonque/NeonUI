@@ -156,12 +156,18 @@ class OnboardingScreen extends StatelessWidget {
                           ],
                         ),
                       ),
-                      child: const Center(
-                        child: Text(
-                          'Sign Up',
-                          style: TextStyle(
-                            fontSize: 14,
-                            color: Constants.kWhiteColor,
+                      child: GestureDetector(
+                        onTap: () {
+                          Navigator.pushNamed(context, '/home');
+                        },
+                        child: Container(
+                          alignment: Alignment.center,
+                          child: Text(
+                            'Sign Up',
+                            style: TextStyle(
+                              fontSize: 14,
+                              color: Constants.kWhiteColor,
+                            ),
                           ),
                         ),
                       ),

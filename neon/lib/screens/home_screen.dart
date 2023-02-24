@@ -158,6 +158,9 @@ class _HomeScreenState extends State<HomeScreen> {
                               mask = Constants.kMaskCenter;
                             }
                             return GestureDetector(
+                              onTap: () {
+                                Navigator.pushNamed(context, '/detail');
+                              },
                               child: Container(
                                 margin: EdgeInsets.only(
                                   left: index == 0 ? 20 : 0,
@@ -204,6 +207,9 @@ class _HomeScreenState extends State<HomeScreen> {
                             mask = Constants.kMaskCenter;
                           }
                           return GestureDetector(
+                            onTap: () {
+                              Navigator.pushNamed(context, '/detail');
+                            },
                             child: Container(
                               margin: EdgeInsets.only(
                                 left: index == 0 ? 20 : 0,
@@ -298,7 +304,9 @@ class _HomeScreenState extends State<HomeScreen> {
             children: [
               Expanded(
                 child: IconButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/');
+                  },
                   icon: SvgPicture.asset(
                     Constants.kIconHome,
                   ),
@@ -306,7 +314,8 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               Expanded(
                 child: IconButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/');},
                   icon: SvgPicture.asset(
                     Constants.kIconPlayOnTv,
                   ),
@@ -317,7 +326,8 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               Expanded(
                 child: IconButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/');},
                   icon: SvgPicture.asset(
                     Constants.kIconCategories,
                   ),
@@ -325,7 +335,8 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               Expanded(
                 child: IconButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/');},
                   icon: SvgPicture.asset(
                     Constants.kIconDownload,
                   ),
