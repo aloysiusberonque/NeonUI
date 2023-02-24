@@ -268,7 +268,7 @@ class MovieDetailScreen extends StatelessWidget {
                                 minRadius: 16,
                                 maxRadius: screenWidth <= 375 ? 24 : 30,
                                 backgroundImage: const NetworkImage(
-                                  'https://m.media-amazon.com/images/M/MV5BODg3MzYwMjE4N15BMl5BanBnXkFtZTcwMjU5NzAzNw@@._V1_.jpg',
+                                  'https://m.media-amazon.com/images/M/MV5BMzkyMTk2NzM2Ml5BMl5BanBnXkFtZTcwNDQ4MjYzMg@@._V1_FMjpg_UX1000_.jpg',
                                 ),
                               ),
                               Expanded(
@@ -293,7 +293,7 @@ class MovieDetailScreen extends StatelessWidget {
                                         child: Align(
                                           alignment: Alignment.centerLeft,
                                           child: Text(
-                                            'Angelina\nJolie',
+                                            'Salma\nHayek',
                                             style: TextStyle(
                                               color: Colors.white,
                                               fontSize: 13,
@@ -319,7 +319,7 @@ class MovieDetailScreen extends StatelessWidget {
                                 minRadius: 16,
                                 maxRadius: screenWidth <= 375 ? 24 : 30,
                                 backgroundImage: const NetworkImage(
-                                  'https://m.media-amazon.com/images/M/MV5BODg3MzYwMjE4N15BMl5BanBnXkFtZTcwMjU5NzAzNw@@._V1_.jpg',
+                                  'https://m.media-amazon.com/images/M/MV5BMTUyMDgxNDYxOV5BMl5BanBnXkFtZTgwMTExMDEwMDI@._V1_.jpg',
                                 ),
                               ),
                               Expanded(
@@ -344,7 +344,7 @@ class MovieDetailScreen extends StatelessWidget {
                                         child: Align(
                                           alignment: Alignment.centerLeft,
                                           child: Text(
-                                            'Angelina\nJolie',
+                                            'Richard\nMadden',
                                             style: TextStyle(
                                               color: Colors.white,
                                               fontSize: 13,
@@ -358,13 +358,12 @@ class MovieDetailScreen extends StatelessWidget {
                                 ),
                               ),
                               CircleAvatar(
-                                backgroundColor: Colors.orange,
-                                minRadius: 16,
-                                maxRadius: screenWidth <= 375 ? 24 : 30,
-                                backgroundImage: const NetworkImage(
-                                  'https://m.media-amazon.com/images/M/MV5BODg3MzYwMjE4N15BMl5BanBnXkFtZTcwMjU5NzAzNw@@._V1_.jpg',
-                                ),
-                              ),
+                                  backgroundColor: Colors.orange,
+                                  minRadius: 16,
+                                  maxRadius: screenWidth <= 375 ? 24 : 30,
+                                  backgroundImage: const NetworkImage(
+                                    'https://m.media-amazon.com/images/M/MV5BNjY1MzNjOGQtOGY2NS00OGExLWE3ZWMtZDZjMGVhYTkyMjc0XkEyXkFqcGdeQXVyMTE3ODY2Nzk@._V1_.jpg',
+                                  )),
                               Expanded(
                                 child: Container(
                                   constraints: const BoxConstraints(
@@ -387,7 +386,7 @@ class MovieDetailScreen extends StatelessWidget {
                                         child: Align(
                                           alignment: Alignment.centerLeft,
                                           child: Text(
-                                            'Angelina\nJolie',
+                                            'Gemma\nChan',
                                             style: TextStyle(
                                               color: Colors.white,
                                               fontSize: 13,

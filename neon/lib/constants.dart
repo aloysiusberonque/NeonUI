@@ -27,4 +27,10 @@ class Constants {
   static const String kMaskLastIndex = 'assets/mask/mask_lastIndex.png';
   static const String kMaskCenter = 'assets/mask/mask.png';
   static const String kMaskCast = 'assets/mask/mask_cast.png';
+
+  // Constant Casts
+  static const String kAngelina = 'assets/images/cast_angelinajolie.png';
+  static const String kGem = 'assets/images/cast_gemmachan.png';
+  static const String kRicahrd = 'assets/images/cast_richardmadden.png';
+  static const String kSalma = 'assets/images/cast_salmahayek.png';
 }
